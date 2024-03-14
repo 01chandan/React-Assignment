@@ -13,13 +13,13 @@ function App() {
 
   // Our client Icon Data
   const iconData = [
-    {icon: '../src/assets/clientLogo.svg' },
-    {icon: '../src/assets/clientLogo-1.svg' },
-    {icon: '../src/assets/clientLogo-2.svg' },
-    {icon: '../src/assets/clientLogo-3.svg' },
-    {icon: '../src/assets/clientLogo-4.svg' },
-    {icon: '../src/assets/clientLogo-5.svg' },
-    {icon: '../src/assets/clientLogo-6.svg' },
+    {icon: 'src/assets/clientLogo.svg' },
+    {icon: 'src/assets/clientLogo-1.svg' },
+    {icon: 'src/assets/clientLogo-2.svg' },
+    {icon: 'src/assets/clientLogo-3.svg' },
+    {icon: 'src/assets/clientLogo-4.svg' },
+    {icon: 'src/assets/clientLogo-5.svg' },
+    {icon: 'src/assets/clientLogo-6.svg' },
 
   ];
   const [clientValue, setValue] = useState(iconData);
