@@ -1,8 +1,28 @@
-# React + Vite
+# Overview
+This is a responsive web application designed using React.js and Tailwind CSS. The project utilizes useState and props for state management and component communication, respectively. Additionally, Google Fonts have been incorporated to enhance the typography of the application. The design for the project was crafted using Figma, while images were sourced from Unsplash.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+Responsive design for seamless viewing on different devices.
+Dynamic rendering of movie details using React components.
+User-friendly interface for smooth navigation.
 
-Currently, two official plugins are available:
+# Technologies & Platform Used
+React.js
+Tailwind CSS
+Google Fonts
+Figma for design
+Unsplash for images
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Installation
+To run the project locally, follow these steps:
+
+Clone the repository to your local machine.
+Navigate to the project directory.
+Install dependencies using npm install or yarn install.
+Start the development server using npm start or yarn start.
+
+# Sample Video 
+
+
+https://github.com/01chandan/React-Assignment/assets/121013050/ccd6b6f4-1d76-4f09-ba60-5b322ff43120
+
