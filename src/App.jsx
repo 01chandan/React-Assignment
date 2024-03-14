@@ -9,17 +9,26 @@ import MeetAllCustomers from "./components/MeetAllCustomers.jsx"
 import Marketing from "./components/Marketing.jsx"
 import Demo from "./components/Demo.jsx"
 import Footer from "./components/Footer.jsx"
+// Import Images
+import logo from "/src/assets/clientLogo.svg"
+import logo2 from "/src/assets/clientLogo-1.svg"
+import logo3 from "/src/assets/clientLogo-2.svg"
+import logo4 from "/src/assets/clientLogo-3.svg"
+import logo5 from "/src/assets/clientLogo-4.svg"
+import logo6 from "/src/assets/clientLogo-5.svg"
+import logo7 from "/src/assets/clientLogo-6.svg"
+
 function App() {
 
   // Our client Icon Data
   const iconData = [
-    {icon: 'src/assets/clientLogo.svg' },
-    {icon: 'src/assets/clientLogo-1.svg' },
-    {icon: 'src/assets/clientLogo-2.svg' },
-    {icon: 'src/assets/clientLogo-3.svg' },
-    {icon: 'src/assets/clientLogo-4.svg' },
-    {icon: 'src/assets/clientLogo-5.svg' },
-    {icon: 'src/assets/clientLogo-6.svg' },
+    {icon: logo },
+    {icon: logo2 },
+    {icon: logo3 },
+    {icon: logo4 },
+    {icon: logo5 },
+    {icon: logo6 },
+    {icon: logo7 },
 
   ];
   const [clientValue, setValue] = useState(iconData);
