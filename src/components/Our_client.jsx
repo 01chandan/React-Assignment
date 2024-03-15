@@ -13,7 +13,7 @@ function Our_client({ value }) {
         {value.map((item, index) => (
           <img
             key={index}
-            className="w-[3rem] h-auto mx-2 my-2 md:mx-4 md:my-2 lg:mx-6 lg:my-3 hover:scale-105 duration-500"
+            className="w-[6.5rem] h-auto mx-2 my-2 md:mx-4 md:my-2 lg:mx-6 lg:my-3 hover:scale-105 duration-500"
             src={item.icon}
             alt=""
           />
