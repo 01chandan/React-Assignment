@@ -4,7 +4,7 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 function Nav() {
   return (
     <div className='flex justify-between items-center w-full md:max-w-[1080px] px-4 md:px-0 py-3 md:py-4'>
-      <img src="../src/assets/logo.svg" alt="" />
+      <p className='text-lg font-semibold text-Black'>LO<span className='text-[#4CAF4F]'>GO</span></p>
 
       {/* Toggle Button for Small Screens */}
       <button className='md:hidden text-[#4D4D4D]'>
